@@ -1,0 +1,87 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    user-select: none;
+}
+@font-face {
+    font-family: "welcomefont";
+    src: url("StaffMeetingPlainItalic.ttf");
+}
+h2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+    font-family: "welcomefont";
+   
+}
+.container {
+
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    /* border: black 2px solid; */
+    border-radius: 20px;
+    height: max-content;
+
+}
+img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+#input-el, #input-btn {
+    width: 300px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#input-el {
+    box-sizing: border-box;
+    background-color: rgba(124, 170, 155, 0.795);
+}
+
+#input-btn {
+    background-color: rgba(99, 9, 184, 0.774);
+
+}
+ul li {
+    font-size: 20px;
+    background-color: #e9bca7;
+    padding: 10px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+
+}
+li:hover {
+    background-color: rgb(202, 144, 144);
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px;
+    list-style: none;
+    /* font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2) */
+}
